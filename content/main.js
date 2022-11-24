@@ -6,7 +6,7 @@ export const attributes = {
       text: 'Portfolio',
     },
     heading: "I'm Lisa, and I create",
-    image: '/img/hero.jpeg',
+    image: '/img/laptop.jpg',
     secondButton: {
       icon: 'github',
       link: 'https://github.com/lisaweilguni',
@@ -27,14 +27,14 @@ export const attributes = {
     ],
   },
   about: {
-    heading: 'Who am I?',
-    image: '/img/about.jpeg',
-    text: "I’m Lisa, a web developer based in Vienna with a business and teaching background. I am a proactive person with a growth mindset and a passion for problem-solving and design. Also, I am an avid learner and I'm curious about the world around me.\n",
+    heading: "Hi, I'm Lisa",
+    image: '/img/lisa.jpg',
+    text: "I’m a web developer based in Vienna with a business and teaching background. I'm a curious person with a growth mindset and a passion for problem-solving and design. I'm confident in React, Typescript, Next.js, CSS3, Emotion, Testing and constantly grow my tech stack.\n",
   },
   features: [
     {
       icon: 'monitor-screenshot',
-      text: 'Easy to use and intuitive UX/UI. Using Figma to create the design system and wireframes. \n',
+      text: 'Easy to use and intuitive UX/UI. Creating design systems and wireframes and Figma. \n',
       title: 'UI/UX',
     },
     {
@@ -68,24 +68,6 @@ export const attributes = {
         image: '/img/landing-page.png',
         title: 'Landing Page Clone',
       },
-      // {
-      //   btnLink: 'https://behance.com',
-      //   btnText: 'View on Behance',
-      //   image: '/img/project-4.jpeg',
-      //   title: 'DrawoDrawy',
-      // },
-      // {
-      //   btnLink: 'https://behance.com',
-      //   btnText: 'View on Behance',
-      //   image: '/img/project-5.jpeg',
-      //   title: 'PagoPagy',
-      // },
-      // {
-      //   btnLink: 'https://behance.com',
-      //   btnText: 'View on Behance',
-      //   image: '/img/project-6.jpeg',
-      //   title: 'UIoUXy',
-      // },
     ],
     title: 'Portfolio',
   },
