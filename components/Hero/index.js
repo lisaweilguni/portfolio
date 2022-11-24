@@ -36,14 +36,14 @@ const Hero = ({ data }) => {
             className="font-bold border-solid border-2 border-white py-3 px-5 mx-3 hover:bg-white hover:text-gray-800"
           >
             <i className={`mdi mdi-${firstButton.icon} mr-2 text-xl`} />
-            {firstButton.text}
+            <Link href={firstButton.link}>{firstButton.text}</Link>
           </button>
           <button
             href={secondButton.link}
             className="font-bold border-solid border-2 border-white py-3 px-5 mx-3 hover:bg-white hover:text-gray-800"
           >
             <i className={`mdi mdi-${secondButton.icon} mr-2 text-xl`} />
-            {secondButton.text}
+            <Link href={secondButton.link}>{secondButton.text}</Link>
           </button>
         </div>
         <div className="hero__social flex justify-center py-3">

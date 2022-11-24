@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Fade from 'react-reveal/Slide';
 
 const Portfolio = ({ data }) => {
@@ -22,13 +23,14 @@ const Portfolio = ({ data }) => {
             >
               <div className="w-full h-full py-16 text-center text-transparent hover:text-white hover:bg-black hover:opacity-75">
                 <h4>{project.title}</h4>
-                <button
-                  href={project.btnLink}
-                  target="_blank"
-                  className="font-bold py-3 px-5 my-3 hover:bg-white hover:text-gray-800"
-                >
-                  {project.btnText}
-                </button>
+                <Link href={project.btnLink} target="_blank">
+                  <div
+                    className="font-bold py-3 px-5 my-3 hover:bg-white hover:text-gray-800 cursor:pointer"
+                    style={{ cursor: 'pointer' }}
+                  >
+                    {project.btnText}
+                  </div>
+                </Link>
               </div>
             </div>
           ))}
