@@ -34,12 +34,12 @@ export const attributes = {
   features: [
     {
       icon: 'monitor-screenshot',
-      text: 'Easy to use and intuitive UX/UI. Creating design systems and wireframes and Figma. \n',
+      text: 'Easy to use and intuitive UX/UI. Creating design systems and wireframes in Figma. \n',
       title: 'UI/UX',
     },
     {
       icon: 'draw',
-      text: 'My layout will work on all devices. Confident in CSS3, Emotion and eager to learn more. \n',
+      text: 'My layouts will work on all devices. Confident in CSS3, Emotion and eager to learn more. \n',
       title: 'Responsive Design',
     },
     {
